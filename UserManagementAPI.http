@@ -1,0 +1,9 @@
+@UserManagementAPI_HostAddress = https://localhost:7055
+
+GET {{UserManagementAPI_HostAddress}}/User/GetAll
+
+ GET {{UserManagementAPI_HostAddress}}//api/protected -H "Authorization: Bearer VALID_JWT_TOKEN"
+ GET http://localhost:5000/api/error
+Accept: application/json
+
+###
